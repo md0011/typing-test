@@ -138,10 +138,7 @@
 </div>
 
 <style>
-    h1 {
-        margin-bottom: 2rem;
-        color: wheat;
-    }
+
     /* Wrapper Styles */
     .wrapper {
         display: flex;
@@ -149,9 +146,15 @@
         align-items: center;
         justify-content: center;
         min-height: 100vh;
+        padding: 3rem 0;
         background-color: #f5f5f5;
         background: linear-gradient( #007acc, #6DD5FA, #FFFFFF);
         overflow: hidden;
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+        color: wheat;
     }
 
     /* Input Field Styles */

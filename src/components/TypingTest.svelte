@@ -110,6 +110,7 @@
         class="input-field"
         bind:value={inpField}
         on:input={handleInput}
+        placeholder="Type below paragraph here..."
     />
     <div class="content-box">
         <div class="typing-text"></div>
